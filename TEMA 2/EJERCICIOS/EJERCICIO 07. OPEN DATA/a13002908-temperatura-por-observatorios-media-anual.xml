@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <dcat:CatalogRecord rdf:about="https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual/record">
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual">
+        <dct:title xml:lang="es">Temperatura por observatorios: Media anual</dct:title>
+        <dct:description xml:lang="es">Sin información adicional</dct:description>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/A13002908"/>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sector-publico"/>
+        <dcat:keyword xml:lang="es">Climatología</dcat:keyword>
+        <dcat:keyword xml:lang="es">Condiciones ambientales</dcat:keyword>
+        <dcat:keyword xml:lang="es">Temperatura por observatorios  Media anual</dcat:keyword>
+        <dcat:keyword xml:lang="es">Territorio y climatología</dcat:keyword>
+        <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/101008</dct:identifier>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-11T13:28:47+02:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-28T08:07:05+01:00</dct:modified>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:distribution rdf:resource="https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual/resource/f71539d1-7254-4a5c-92a3-d400b2246bfd"/>
+        <dcat:distribution rdf:resource="https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual/resource/1fc90dee-319b-4e76-aeed-348e3737c076"/>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-06-06T02:32:31.080489+02:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-13T17:31:54.991418+02:00</dct:issued>
+  </dcat:CatalogRecord>
+  <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual/resource/1fc90dee-319b-4e76-aeed-348e3737c076">
+    <dcat:accessURL rdf:resource="https://datos.comunidad.madrid/dataset/c1011658-dc45-40fe-810f-6f79e879e143/resource/57642d4f-f1c4-41f0-a039-d83a2d4e2626/download/temperatura-por-observatorios-media-anual.json"/>
+    <dct:format>
+      <dct:IMT rdf:about="https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual/resource/1fc90dee-319b-4e76-aeed-348e3737c076/format">
+        <rdfs:label>JSON</rdfs:label>
+        <rdf:value>application/json</rdf:value>
+      </dct:IMT>
+    </dct:format>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode.es"/>
+    <dct:title xml:lang="es">Temperatura por observatorios: Media anual.json</dct:title>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/json"/>
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">51074</dcat:byteSize>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.comunidad.madrid/dataset/c1011658-dc45-40fe-810f-6f79e879e143/resource/57642d4f-f1c4-41f0-a039-d83a2d4e2626/download/temperatura-por-observatorios-media-anual.json</dct:identifier>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual/resource/f71539d1-7254-4a5c-92a3-d400b2246bfd">
+    <dcat:accessURL rdf:resource="https://datos.comunidad.madrid/dataset/c1011658-dc45-40fe-810f-6f79e879e143/resource/c65ca5df-7e12-41c7-99cf-d1ce8d30725d/download/temperatura-por-observatorios-media-anual.csv"/>
+    <dct:format>
+      <dct:IMT rdf:about="https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual/resource/f71539d1-7254-4a5c-92a3-d400b2246bfd/format">
+        <rdfs:label>CSV</rdfs:label>
+        <rdf:value>text/csv</rdf:value>
+      </dct:IMT>
+    </dct:format>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode.es"/>
+    <dct:title xml:lang="es">Temperatura por observatorios: Media anual.csv</dct:title>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/text/csv"/>
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">22748</dcat:byteSize>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://datos.comunidad.madrid/dataset/c1011658-dc45-40fe-810f-6f79e879e143/resource/c65ca5df-7e12-41c7-99cf-d1ce8d30725d/download/temperatura-por-observatorios-media-anual.csv</dct:identifier>
+  </dcat:Distribution>
+  <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A13002908">
+    <foaf:name xml:lang="es">Comunidad de Madrid</foaf:name>
+    <dct:identifier>A13002908</dct:identifier>
+  </foaf:Agent>
+</rdf:RDF>

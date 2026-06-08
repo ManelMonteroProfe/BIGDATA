@@ -1,0 +1,190 @@
+{
+  "@context": {
+    "adms": "http://www.w3.org/ns/adms#",
+    "brick": "https://brickschema.org/schema/Brick#",
+    "csvw": "http://www.w3.org/ns/csvw#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcam": "http://purl.org/dc/dcam/",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "dcmitype": "http://purl.org/dc/dcmitype/",
+    "dct": "http://purl.org/dc/terms/",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "locn": "http://www.w3.org/ns/locn#",
+    "odrl": "http://www.w3.org/ns/odrl/2/",
+    "org": "http://www.w3.org/ns/org#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "prof": "http://www.w3.org/ns/dx/prof/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "qb": "http://purl.org/linked-data/cube#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "schema1": "http://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "sosa": "http://www.w3.org/ns/sosa/",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "ssn": "http://www.w3.org/ns/ssn/",
+    "time": "http://www.w3.org/2006/time#",
+    "vann": "http://purl.org/vocab/vann/",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "voaf": "http://purl.org/vocommons/voaf#",
+    "void": "http://rdfs.org/ns/void#",
+    "wgs": "https://www.w3.org/2003/01/geo/wgs84_pos#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual/resource/1fc90dee-319b-4e76-aeed-348e3737c076",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://datos.comunidad.madrid/dataset/c1011658-dc45-40fe-810f-6f79e879e143/resource/57642d4f-f1c4-41f0-a039-d83a2d4e2626/download/temperatura-por-observatorios-media-anual.json"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:decimal",
+        "@value": "51074"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/application/json"
+      },
+      "dct:format": {
+        "@id": "https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual/resource/1fc90dee-319b-4e76-aeed-348e3737c076/format"
+      },
+      "dct:identifier": {
+        "@type": "xsd:anyURI",
+        "@value": "https://datos.comunidad.madrid/dataset/c1011658-dc45-40fe-810f-6f79e879e143/resource/57642d4f-f1c4-41f0-a039-d83a2d4e2626/download/temperatura-por-observatorios-media-anual.json"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/legalcode.es"
+      },
+      "dct:title": {
+        "@language": "es",
+        "@value": "Temperatura por observatorios: Media anual.json"
+      }
+    },
+    {
+      "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A13002908",
+      "@type": "foaf:Agent",
+      "dct:identifier": "A13002908",
+      "foaf:name": {
+        "@language": "es",
+        "@value": "Comunidad de Madrid"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual/resource/f71539d1-7254-4a5c-92a3-d400b2246bfd/format",
+      "@type": "dct:IMT",
+      "rdf:value": "text/csv",
+      "rdfs:label": "CSV"
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual",
+      "@type": "dcat:Dataset",
+      "dcat:distribution": [
+        {
+          "@id": "https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual/resource/1fc90dee-319b-4e76-aeed-348e3737c076"
+        },
+        {
+          "@id": "https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual/resource/f71539d1-7254-4a5c-92a3-d400b2246bfd"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@language": "es",
+          "@value": "Temperatura por observatorios  Media anual"
+        },
+        {
+          "@language": "es",
+          "@value": "Territorio y climatología"
+        },
+        {
+          "@language": "es",
+          "@value": "Condiciones ambientales"
+        },
+        {
+          "@language": "es",
+          "@value": "Climatología"
+        }
+      ],
+      "dcat:theme": {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector/sector-publico"
+      },
+      "dct:description": {
+        "@language": "es",
+        "@value": "Sin información adicional"
+      },
+      "dct:identifier": "https://datos.comunidad.madrid/catalogo/dataset/101008",
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-09-11T13:28:47+02:00"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-11-28T08:07:05+01:00"
+      },
+      "dct:publisher": {
+        "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/A13002908"
+      },
+      "dct:title": {
+        "@language": "es",
+        "@value": "Temperatura por observatorios: Media anual"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual/resource/1fc90dee-319b-4e76-aeed-348e3737c076/format",
+      "@type": "dct:IMT",
+      "rdf:value": "application/json",
+      "rdfs:label": "JSON"
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual/record",
+      "@type": "dcat:CatalogRecord",
+      "dct:issued": {
+        "@type": "xsd:dateTime",
+        "@value": "2025-09-13T17:31:54.991418+02:00"
+      },
+      "dct:modified": {
+        "@type": "xsd:dateTime",
+        "@value": "2026-06-06T02:32:31.080489+02:00"
+      },
+      "foaf:primaryTopic": {
+        "@id": "https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual"
+      }
+    },
+    {
+      "@id": "https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual/resource/f71539d1-7254-4a5c-92a3-d400b2246bfd",
+      "@type": "dcat:Distribution",
+      "dcat:accessURL": {
+        "@id": "https://datos.comunidad.madrid/dataset/c1011658-dc45-40fe-810f-6f79e879e143/resource/c65ca5df-7e12-41c7-99cf-d1ce8d30725d/download/temperatura-por-observatorios-media-anual.csv"
+      },
+      "dcat:byteSize": {
+        "@type": "xsd:decimal",
+        "@value": "22748"
+      },
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/text/csv"
+      },
+      "dct:format": {
+        "@id": "https://datos.gob.es/catalogo/a13002908-temperatura-por-observatorios-media-anual/resource/f71539d1-7254-4a5c-92a3-d400b2246bfd/format"
+      },
+      "dct:identifier": {
+        "@type": "xsd:anyURI",
+        "@value": "https://datos.comunidad.madrid/dataset/c1011658-dc45-40fe-810f-6f79e879e143/resource/c65ca5df-7e12-41c7-99cf-d1ce8d30725d/download/temperatura-por-observatorios-media-anual.csv"
+      },
+      "dct:license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/legalcode.es"
+      },
+      "dct:title": {
+        "@language": "es",
+        "@value": "Temperatura por observatorios: Media anual.csv"
+      }
+    }
+  ]
+}
