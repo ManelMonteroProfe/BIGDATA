@@ -1,0 +1,11 @@
+id_transaccion,fecha,producto,categoria,cantidad,precio_unitario,ciudad
+T001,2026-06-01,Portatil Pro,Hardware,1,1200.00,Madrid
+T002,2026-06-01,Raton Inalambrico,Accesorios,3,25.00,Sevilla
+T003,2026-06-02,Monitor 4K,Hardware,2,350.00,Barcelona
+T004,2026-06-02,Teclado Mecanico,Accesorios,1,85.00,Madrid
+T005,2026-06-03,Auriculares Top,Audio,5,90.00,Granada
+T006,2026-06-03,Portatil Pro,Hardware,1,1200.00,Sevilla
+T007,2026-06-04,Monitor 4K,Hardware,1,350.00,Granada
+T008,2026-06-04,Disco Duro SSD,Almacenamiento,2,110.00,Madrid
+T009,2026-06-05,Raton Inalambrico,Accesorios,4,25.00,Barcelona
+T010,2026-06-05,Auriculares Top,Audio,2,90.00,Sevilla
